@@ -26,7 +26,7 @@ struct CalendarView: View {
                         .fontWeight(.bold)
                         .padding(.vertical)
                         .frame(maxWidth: .infinity)
-                        .background(.orange, in: Capsule())
+                        .background(.green, in: Capsule())
                 }
                 
                 Button {
@@ -36,7 +36,7 @@ struct CalendarView: View {
                         .fontWeight(.bold)
                         .padding(.vertical)
                         .frame(maxWidth: .infinity)
-                        .background(.purple, in: Capsule())
+                        .background(.indigo, in: Capsule())
                 }
             }
             .padding(.horizontal)
